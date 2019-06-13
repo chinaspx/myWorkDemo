@@ -137,6 +137,8 @@
 		1B6C6AFF22B279410049D253 /* RACTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6C6A9F22B279410049D253 /* RACTuple.m */; };
 		1B6C6B0022B279410049D253 /* NSIndexSet+RACSequenceAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6C6AA122B279410049D253 /* NSIndexSet+RACSequenceAdditions.m */; };
 		1B6C6B0122B279410049D253 /* NSControl+RACTextSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6C6AA222B279410049D253 /* NSControl+RACTextSignalSupport.m */; };
+		1B6C6B0A22B282CC0049D253 /* sampleRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6C6B0922B282CC0049D253 /* sampleRequest.m */; };
+		1B6C6B1022B2834D0049D253 /* sampleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6C6B0F22B2834D0049D253 /* sampleModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -438,6 +440,10 @@
 		1B6C6AA022B279410049D253 /* RACKVOChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACKVOChannel.h; sourceTree = "<group>"; };
 		1B6C6AA122B279410049D253 /* NSIndexSet+RACSequenceAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexSet+RACSequenceAdditions.m"; sourceTree = "<group>"; };
 		1B6C6AA222B279410049D253 /* NSControl+RACTextSignalSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSControl+RACTextSignalSupport.m"; sourceTree = "<group>"; };
+		1B6C6B0822B282CC0049D253 /* sampleRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sampleRequest.h; sourceTree = "<group>"; };
+		1B6C6B0922B282CC0049D253 /* sampleRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sampleRequest.m; sourceTree = "<group>"; };
+		1B6C6B0E22B2834D0049D253 /* sampleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sampleModel.h; sourceTree = "<group>"; };
+		1B6C6B0F22B2834D0049D253 /* sampleModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sampleModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -495,6 +501,10 @@
 				1B6C66F222B270A60049D253 /* AppDelegate.m */,
 				1B6C66F422B270A60049D253 /* ViewController.h */,
 				1B6C66F522B270A60049D253 /* ViewController.m */,
+				1B6C6B0822B282CC0049D253 /* sampleRequest.h */,
+				1B6C6B0922B282CC0049D253 /* sampleRequest.m */,
+				1B6C6B0E22B2834D0049D253 /* sampleModel.h */,
+				1B6C6B0F22B2834D0049D253 /* sampleModel.m */,
 				1B6C66F722B270A60049D253 /* Main.storyboard */,
 				1B6C66FA22B270A80049D253 /* Assets.xcassets */,
 				1B6C66FC22B270A80049D253 /* LaunchScreen.storyboard */,
@@ -1014,6 +1024,7 @@
 				1B6C6AD122B279410049D253 /* RACSignalProvider.d in Sources */,
 				1B6C6AF922B279410049D253 /* RACUnit.m in Sources */,
 				1B6C6AB222B279410049D253 /* UITextView+RACSignalSupport.m in Sources */,
+				1B6C6B1022B2834D0049D253 /* sampleModel.m in Sources */,
 				1B6C6AD022B279410049D253 /* RACMulticastConnection.m in Sources */,
 				1B6C675222B271410049D253 /* Environment.m in Sources */,
 				1B6C66F622B270A60049D253 /* ViewController.m in Sources */,
@@ -1025,6 +1036,7 @@
 				1B6C6ACD22B279410049D253 /* NSObject+RACPropertySubscribing.m in Sources */,
 				1B6C6AC522B279410049D253 /* UIImagePickerController+RACSignalSupport.m in Sources */,
 				1B6C6AFA22B279410049D253 /* RACCompoundDisposable.m in Sources */,
+				1B6C6B0A22B282CC0049D253 /* sampleRequest.m in Sources */,
 				1B6C6AB822B279410049D253 /* EXTRuntimeExtensions.m in Sources */,
 				1B6C678422B272BA0049D253 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				1B6C6ACA22B279410049D253 /* RACArraySequence.m in Sources */,
